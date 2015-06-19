@@ -1,13 +1,25 @@
 {
   "author": "Ken Woodruff <ken.woodruff@gmail.com>",
-  "name": "ec2-instance-data",
-  "description": "recursively retrieve ec2 instance data via http.get",
-  "keywords": ["ec2", "aws", "meta-data", "iam"],
+  "name": "ec2-instance-data-promise",
+  "description": "recursively retrieve ec2 instance data via http.get. With Promises(bluebird)",
+  "keywords": [
+    "ec2",
+    "aws",
+    "meta-data",
+    "iam",
+    "bluebird",
+    "q",
+    "async",
+    "promise"
+  ],
+  "main": './wrapper.js',
   "version": "0.4.1",
   "repository": {
-    "url": "https://github.com/femto113/node-ec2-instance-data.git"
+    "url": "https://github.com/SidBala/node-ec2-instance-data-promise.git"
   },
-  "dependencies": {},
+  "dependencies": {
+    "bluebird": "^2.9.30"
+  },
   "devDependencies": {},
   "optionalDependencies": {
     "aws-sdk": "~ 2.1.9"
