@@ -1,5 +1,5 @@
 {
-  "author": "Ken Woodruff <ken.woodruff@gmail.com>",
+  "author": "Sid Bala <sid.bala@outlook.com>",
   "name": "ec2-instance-data-promise",
   "description": "recursively retrieve ec2 instance data via http.get. With Promises(bluebird)",
   "keywords": [
@@ -18,7 +18,8 @@
     "url": "https://github.com/SidBala/node-ec2-instance-data-promise.git"
   },
   "dependencies": {
-    "bluebird": "^2.9.30"
+    "bluebird": "^2.9.30",
+    "ec2-instance-data": "^0.4.1"
   },
   "devDependencies": {},
   "optionalDependencies": {
